@@ -13,7 +13,7 @@ module Data.Sums
   ) where
 
 import Data.Kind (Type)
-import Data.Void (Void, absurd)
+import Data.Void (absurd)
 import Data.Functor.Contravariant (Op(Op))
 
 -- | Proof that the some type variable is present in a type level list
